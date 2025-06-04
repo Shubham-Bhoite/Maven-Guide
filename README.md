@@ -47,3 +47,17 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 4.Verify Installation:
 - Open a terminal or command prompt and type mvn -version.
 - You should see the Maven version information along with Java details if Maven is correctly installed.
+
+
+## Setting up Maven in IDEs
+- ### IntelliJ IDEA:
+
+  1.Maven Integration :
+  - IntelliJ IDEA has Maven integration built-in, so no additional setup is required.
+  - When creating a new project, you can select Maven as the project type, and IntelliJ will automatically generate the pom.xml file and manage the project structure.
+ 
+  2.Importing a Maven Project:
+  - If you already have a Maven project, you can import it by opening IntelliJ and selecting File → Open, then navigating to the pom.xml file of your project.
+
+  3.Maven Tool Window:
+  - IntelliJ provides a Maven tool window where you can run Maven goals, view the lifecycle, and manage dependencies directly from the IDE.

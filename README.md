@@ -1,6 +1,6 @@
 # <h1 align="center">⚙️ Maven-Guide</h1>
 
-# 📘 Introduction :
+## 📘 Introduction :
 Maven Guide is a beginner-friendly resource to help you understand and use Apache Maven, a powerful build automation tool used primarily for Java projects. This guide covers the basics of Maven, including how to set it up, create and manage projects, handle dependencies, and run builds efficiently.
 Whether you're a student, fresher, or developer new to Maven, this guide will help you get started quickly and confidently.
 
@@ -26,7 +26,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Download the latest binary zip archive or tar.gz file.
   
 2.Extract the Archive:
-- Extract the downloaded archive to a directory of your choice (e.g., C:\\Program Files\\Apache\\maven on Windows or /usr/local/apache-maven on macOS/Linux).
+- Extract the downloaded archive to a directory of your choice (e.g. C:\\Program Files\\Apache\\maven on Windows or /usr/local/apache-maven on macOS/Linux).
   
 3.Set Environment Variables:
 - Windows:
@@ -69,7 +69,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
   - To install it manually: Help → Eclipse Marketplace → Search for "m2e" → Install.
  
   2.Creating a Maven Project:
-  - Go to File → New → Project → Maven → Maven Project.
+  -     Go to File → New → Project → Maven → Maven Project.
   - Follow the wizard to set up your project, specifying details like GroupId, ArtifactId, and packaging type.
  
   3.Importing a Maven Project:

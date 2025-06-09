@@ -112,5 +112,8 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 
 
 
+## Project Object Model (POM)
+- The POM (Project Object Model) is the core of a Maven project. Understanding the POM file is essential because it contains all the configuration details for a Maven project.
+
 
 

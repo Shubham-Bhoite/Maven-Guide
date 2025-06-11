@@ -159,3 +159,6 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
       </project>
 
 
+### Key Elements in POM
+1.modelVersion:
+- This specifies the version of the POM model being used. Currently, 4.0.0 is the default and most widely used version.

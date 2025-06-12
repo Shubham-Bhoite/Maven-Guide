@@ -162,3 +162,13 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 ### Key Elements in POM
 1.modelVersion:
 - This specifies the version of the POM model being used. Currently, 4.0.0 is the default and most widely used version.
+
+2.groupId:
+- The groupId uniquely identifies your project across all projects. Typically, it follows the reverse domain name convention (e.g., com.example).
+
+3.artifactId:
+- The artifactId is the name of the jar without the version. It is the name of the project.
+
+4.version:
+- The version is the project’s current version. Maven uses this version to distinguish between different versions of the same project.
+- Versions can be specific like 1.0.0, or they can include SNAPSHOT, which indicates a version in development.

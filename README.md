@@ -172,3 +172,10 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 4.version:
 - The version is the project’s current version. Maven uses this version to distinguish between different versions of the same project.
 - Versions can be specific like 1.0.0, or they can include SNAPSHOT, which indicates a version in development.
+
+5.packaging:
+- The type of artifact this project produces. Common packaging types are jar, war, pom, etc.
+- If omitted, jar is assumed by default.
+
+6.name and url:
+- These are optional elements used to provide a human-readable name and project URL.

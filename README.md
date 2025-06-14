@@ -179,3 +179,9 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 
 6.name and url:
 - These are optional elements used to provide a human-readable name and project URL.
+
+7.dependencies:
+- The dependencies section lists all the external libraries your project depends on. Maven will download these libraries automatically from the central repository or other specified repositories.
+
+8.build:
+- The build section is used to specify how the project should be built. This includes specifying plugins, custom build directories, resources, etc.

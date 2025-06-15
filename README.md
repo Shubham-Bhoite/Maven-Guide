@@ -185,3 +185,21 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 
 8.build:
 - The build section is used to specify how the project should be built. This includes specifying plugins, custom build directories, resources, etc.
+
+
+### Dependencies and Dependency Management
+#### Dependencies:
+- Dependencies are external libraries that your project needs to work. You specify these in the dependencies section of the POM.
+- Maven automatically downloads the specified versions of dependencies and any transitive dependencies they require.
+- Example :
+
+      <dependencies>
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-web</artifactId>
+          <version>2.5.4</version>
+        </dependency>
+      </dependencies>
+
+
+

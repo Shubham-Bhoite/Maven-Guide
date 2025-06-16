@@ -200,6 +200,8 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
           <version>2.5.4</version>
         </dependency>
       </dependencies>
+#### Transitive Dependencies:
+- Maven resolves transitive dependencies automatically. For example, if your project depends on A, and A depends on B, Maven will include B as a dependency in your project.
 
 
 

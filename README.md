@@ -208,6 +208,8 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 #### 1. Dependency Scopes
 - Maven provides several scopes for dependencies, each determining at what phase of the build process the dependency is available and whether it is included in the final artifact (e.g., a JAR or WAR file). Understanding these scopes is crucial for managing project dependencies effectively.
 - Here’s a detailed explanation of each scope, with examples:
-
+##### a. compile Scope
+- Availability: The dependency is available in all phases of the build lifecycle, including compilation, testing, and packaging.
+- Default Scope: If no scope is specified, Maven uses compile by default.
 
 

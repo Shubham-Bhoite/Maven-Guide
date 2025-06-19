@@ -212,4 +212,8 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Availability: The dependency is available in all phases of the build lifecycle, including compilation, testing, and packaging.
 - Default Scope: If no scope is specified, Maven uses compile by default.
 
+#### b. provided Scope
+- Availability: The dependency is available at compile-time but is not included in the final artifact.
+- Typical Use: Used for dependencies that are provided by the runtime environment, such as servlet APIs provided by an application server.
+
 

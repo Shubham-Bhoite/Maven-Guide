@@ -216,4 +216,17 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Availability: The dependency is available at compile-time but is not included in the final artifact.
 - Typical Use: Used for dependencies that are provided by the runtime environment, such as servlet APIs provided by an application server.
 
+#### c. runtime Scope
+- Availability: The dependency is not required for compilation but is needed during runtime, including execution and tests.
+- Typical Use: Used for dependencies that are needed only at runtime, like JDBC drivers.
+
+#### d. test Scope
+- Availability: The dependency is available only for the test compilation and execution phases.
+- Typical Use: Used for libraries that are required only for testing, such as JUnit or Mockito.
+
+#### e. system Scope
+- Availability: The dependency is available for compilation and testing but must be explicitly provided by the developer on the system.
+- Typical Use: Used rarely when the dependency is not available in any remote repository and must be provided locally.
+- Important: You must explicitly provide the path to the JAR file using the <systemPath> element.
+
 

@@ -229,4 +229,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Typical Use: Used rarely when the dependency is not available in any remote repository and must be provided locally.
 - Important: You must explicitly provide the path to the JAR file using the <systemPath> element.
 
+### Maven Profiles
+- Maven profiles allow you to customize the build process for different environments or situations. A profile can modify the default behavior by adding, removing, or overriding certain parts of the POM, such as dependencies, plugins, properties, etc.
+
 

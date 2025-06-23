@@ -237,3 +237,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Scope: Profiles can modify the build process for a particular environment, such as development, testing, or production.
 
 
+### Maven Build Lifecycle
+The Maven build lifecycle is a sequence of phases that define the order in which tasks are executed during the build process of a Maven project. Maven has three built-in build lifecycles:
+
+#### 1. Default Lifecycle (Build)

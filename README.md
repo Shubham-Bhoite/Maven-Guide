@@ -241,3 +241,11 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 The Maven build lifecycle is a sequence of phases that define the order in which tasks are executed during the build process of a Maven project. Maven has three built-in build lifecycles:
 
 #### 1. Default Lifecycle (Build)
+This is the main lifecycle that handles project deployment. It consists of 23 phases, the most important of which are:
+- 1.validate: Validates the project is correct and all necessary information is available.
+- 2.compile: Compiles the source code of the project.
+- 3.test: Runs the tests using a suitable unit testing framework (like JUnit).
+- 4.package: Packages the compiled code into a distributable format, such as a JAR or WAR file.
+- 5.verify: Runs any checks to verify the package is valid and meets quality criteria.
+- 6.install: Installs the package into the local repository, for use as a dependency in other projects locally.
+- 7.deploy: Copies the final package to the remote repository for sharing with other developers and projects.

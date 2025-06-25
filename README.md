@@ -249,3 +249,9 @@ This is the main lifecycle that handles project deployment. It consists of 23 ph
 - 5.verify: Runs any checks to verify the package is valid and meets quality criteria.
 - 6.install: Installs the package into the local repository, for use as a dependency in other projects locally.
 - 7.deploy: Copies the final package to the remote repository for sharing with other developers and projects.
+
+#### 2. Clean Lifecycle
+This lifecycle is used to clean up artifacts created by the previous build. It consists of three phases:
+- pre-clean: Executes processes needed before the actual project cleaning.
+- clean: Removes files generated during the previous build.
+- post-clean: Executes processes needed after the project cleaning.

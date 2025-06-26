@@ -255,3 +255,10 @@ This lifecycle is used to clean up artifacts created by the previous build. It c
 - pre-clean: Executes processes needed before the actual project cleaning.
 - clean: Removes files generated during the previous build.
 - post-clean: Executes processes needed after the project cleaning.
+
+#### 3. Site Lifecycle
+This lifecycle is used to create the project's site documentation. It consists of four phases:
+- pre-site: Executes processes needed before the actual project site generation.
+- site: Generates the project's site documentation.
+- post-site: Executes processes needed after the site generation, preparing for site deployment.
+- site-deploy: Deploys the generated site to a web server.

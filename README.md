@@ -262,3 +262,6 @@ This lifecycle is used to create the project's site documentation. It consists o
 - site: Generates the project's site documentation.
 - post-site: Executes processes needed after the site generation, preparing for site deployment.
 - site-deploy: Deploys the generated site to a web server.
+
+## Maven Repositories
+Maven repositories are a central part of the Maven build system. They are where Maven stores and retrieves project dependencies, plugins, and other artifacts. Understanding how repositories work and how to manage them is crucial for effectively using Maven.

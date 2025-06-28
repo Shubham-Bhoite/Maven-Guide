@@ -265,3 +265,8 @@ This lifecycle is used to create the project's site documentation. It consists o
 
 ## Maven Repositories
 Maven repositories are a central part of the Maven build system. They are where Maven stores and retrieves project dependencies, plugins, and other artifacts. Understanding how repositories work and how to manage them is crucial for effectively using Maven.
+
+### Types of Maven Repositories
+Maven supports three types of repositories:
+
+### 1.Local Repository:

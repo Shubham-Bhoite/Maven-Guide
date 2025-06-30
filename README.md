@@ -278,4 +278,8 @@ Maven supports three types of repositories:
       <settings>
          <localRepository>C:/path/to/your/local/repo</localRepository>
       </settings>
+### 2.Central Repository:
+- The central repository is a global, publicly available repository hosted by the Maven project. It contains a vast collection of open-source libraries, plugins, and other project artifacts.
+- The central repository is the default source from which Maven downloads dependencies if they are not found in the local repository.
+- Maven automatically connects to the central repository when you request a dependency that is not available locally.
 

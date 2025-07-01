@@ -10,7 +10,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - It simplifies the build process by managing dependencies, compiling source code, packaging it into a deliverable (such as a JAR file), and deploying it to a repository.
 - Maven is based on the concept of a Project Object Model (POM), which is a central piece of information that manages a project’s build, reporting, and documentation.
 
-## History and Evolution of Maven
+## History and Evolution of Maven :
 - Maven was developed by the Apache Software Foundation and released in 2004.
 - It was created to address the problems with Apache Ant, a popular build tool at the time. Maven was designed to simplify the build process, provide a uniform build system, and offer project information that could be shared among developers.
 - Over the years, Maven has become one of the most widely used build tools in the Java ecosystem.
@@ -49,7 +49,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - You should see the Maven version information along with Java details if Maven is correctly installed.
 
 
-## Setting up Maven in IDEs
+## Setting up Maven in IDEs ==>
 - ### IntelliJ IDEA:
 
   1.Maven Integration :
@@ -78,7 +78,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
   4.Maven Integration:
   - Eclipse provides a "Maven" perspective that allows you to run Maven commands, manage dependencies, and configure the build lifecycle from within the IDE.
 
-## Understanding the .m2 Directory and settings.xml
+## Understanding the .m2 Directory and settings.xml ==>
 ### The .m2 Directory: 
 - Located in the user's home directory (e.g., C:\\Users\\YourName\\.m2 on Windows or /home/YourName/.m2 on macOS/Linux).
 - Contains the repository folder where Maven stores downloaded dependencies. This is known as the local repository.

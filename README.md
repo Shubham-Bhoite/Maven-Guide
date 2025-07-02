@@ -283,3 +283,15 @@ Maven supports three types of repositories:
 - The central repository is the default source from which Maven downloads dependencies if they are not found in the local repository.
 - Maven automatically connects to the central repository when you request a dependency that is not available locally.
 
+### 3.Remote Repository:
+- A remote repository is any repository that is hosted on a web server other than the central repository. Organizations often maintain their own remote repositories to store proprietary artifacts, plugins, or third-party libraries that are not available in the central repository.
+- You can configure Maven to use a remote repository by adding it to your pom.xml or settings.xml file.
+- Example in pom.xml:
+
+      <repositories>
+       <repository>
+        <id>my-company-repo</id>
+        <url><http://repository.mycompany.com/maven2></url>
+       </repository>
+      </repositories>
+

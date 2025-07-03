@@ -116,7 +116,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - The POM (Project Object Model) is the core of a Maven project. Understanding the POM file is essential because it contains all the configuration details for a Maven project.
 
 
-### Structure of a pom.xml File
+### Structure of a pom.xml File :
 - The pom.xml file is an XML file that contains information about the project and configuration details used by Maven to build the project.
 - Here’s a basic structure of a pom.xml file:
         
@@ -229,7 +229,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Typical Use: Used rarely when the dependency is not available in any remote repository and must be provided locally.
 - Important: You must explicitly provide the path to the JAR file using the <systemPath> element.
 
-### Maven Profiles
+### Maven Profiles ==>
 - Maven profiles allow you to customize the build process for different environments or situations. A profile can modify the default behavior by adding, removing, or overriding certain parts of the POM, such as dependencies, plugins, properties, etc.
 
 #### How Profiles Work :

@@ -295,3 +295,9 @@ Maven supports three types of repositories:
        </repository>
       </repositories>
 
+### How Maven Resolves Dependencies
+Maven follows a specific order to resolve dependencies:
+- Local Repository: Maven checks the local repository first. If the dependency is found, Maven uses it.
+- Remote Repositories: If the dependency is not found in the local repository, Maven checks any configured remote repositories.
+- Central Repository: If the dependency is not found in any remote repositories, Maven checks the central repository.
+- Fail: If Maven cannot find the dependency in any repository, the build fails with an error.

@@ -301,3 +301,7 @@ Maven follows a specific order to resolve dependencies:
 - Remote Repositories: If the dependency is not found in the local repository, Maven checks any configured remote repositories.
 - Central Repository: If the dependency is not found in any remote repositories, Maven checks the central repository.
 - Fail: If Maven cannot find the dependency in any repository, the build fails with an error.
+
+### Dependency Management in Multi-Module Projects
+In multi-module projects, you often have a parent POM that defines dependencies for all modules. Maven provides a <dependencyManagement> section that allows you to centrally manage dependency versions across multiple modules.
+

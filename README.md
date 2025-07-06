@@ -305,3 +305,32 @@ Maven follows a specific order to resolve dependencies:
 ### Dependency Management in Multi-Module Projects
 In multi-module projects, you often have a parent POM that defines dependencies for all modules. Maven provides a <dependencyManagement> section that allows you to centrally manage dependency versions across multiple modules.
 
+#### Using <dependencyManagement> in the Parent POM:
+
+    <project>
+    <groupId>com.example</groupId>
+    <artifactId>parent-project</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>5.3.9</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.30</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>module-a</module>
+        <module>module-b</module>
+    </modules>
+    </project>
+

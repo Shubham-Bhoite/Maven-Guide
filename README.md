@@ -266,7 +266,7 @@ This lifecycle is used to create the project's site documentation. It consists o
 ## Maven Repositories
 Maven repositories are a central part of the Maven build system. They are where Maven stores and retrieves project dependencies, plugins, and other artifacts. Understanding how repositories work and how to manage them is crucial for effectively using Maven.
 
-### Types of Maven Repositories
+### Types of Maven Repositories ==>
 Maven supports three types of repositories:
 
 ### 1.Local Repository:
@@ -295,17 +295,17 @@ Maven supports three types of repositories:
        </repository>
       </repositories>
 
-### How Maven Resolves Dependencies
+### How Maven Resolves Dependencies ?
 Maven follows a specific order to resolve dependencies:
 - Local Repository: Maven checks the local repository first. If the dependency is found, Maven uses it.
 - Remote Repositories: If the dependency is not found in the local repository, Maven checks any configured remote repositories.
 - Central Repository: If the dependency is not found in any remote repositories, Maven checks the central repository.
 - Fail: If Maven cannot find the dependency in any repository, the build fails with an error.
 
-### Dependency Management in Multi-Module Projects
+### Dependency Management in Multi-Module Projects :-
 In multi-module projects, you often have a parent POM that defines dependencies for all modules. Maven provides a <dependencyManagement> section that allows you to centrally manage dependency versions across multiple modules.
 
-#### Using <dependencyManagement> in the Parent POM:
+#### Using <dependencyManagement> in the Parent POM ==>
 
     <project>
     <groupId>com.example</groupId>

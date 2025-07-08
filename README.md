@@ -327,10 +327,9 @@ In multi-module projects, you often have a parent POM that defines dependencies 
             </dependency>
         </dependencies>
     </dependencyManagement>
+    
+- Explanation: Dependencies defined in <dependencyManagement> are not automatically included in the child modules. Instead, they provide a version and scope template that child modules can use.
 
-    <modules>
-        <module>module-a</module>
-        <module>module-b</module>
-    </modules>
-    </project>
+
+
 

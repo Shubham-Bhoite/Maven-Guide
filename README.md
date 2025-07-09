@@ -331,5 +331,24 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 - Explanation: Dependencies defined in <dependencyManagement> are not automatically included in the child modules. Instead, they provide a version and scope template that child modules can use.
 
 
+### Child Module POM:
+
+    <project>
+     <parent>
+        <groupId>com.example</groupId>
+        <artifactId>parent-project</artifactId>
+        <version>1.0.0</version>
+     </parent>
+
+    <artifactId>module-a</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+    </dependencies>
+    </project>
+
 
 

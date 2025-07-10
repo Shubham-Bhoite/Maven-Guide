@@ -350,5 +350,6 @@ In multi-module projects, you often have a parent POM that defines dependencies 
     </dependencies>
     </project>
 
+- Explanation: The child module inherits the version and scope of spring-core from the parent POM, thanks to the <dependencyManagement> section.
 
 

@@ -352,4 +352,7 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 
 - Explanation: The child module inherits the version and scope of spring-core from the parent POM, thanks to the <dependencyManagement> section.
 
+### Excluding Unwanted Transitive Dependencies
+Sometimes, you might want to exclude a transitive dependency that is brought in by one of your dependencies but is not needed by your project.
+
 

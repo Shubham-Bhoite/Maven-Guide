@@ -240,7 +240,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 ### Maven Build Lifecycle
 The Maven build lifecycle is a sequence of phases that define the order in which tasks are executed during the build process of a Maven project. Maven has three built-in build lifecycles:
 
-#### 1. Default Lifecycle (Build)
+#### 1. Default Lifecycle (Build) :
 This is the main lifecycle that handles project deployment. It consists of 23 phases, the most important of which are:
 - 1.validate: Validates the project is correct and all necessary information is available.
 - 2.compile: Compiles the source code of the project.
@@ -250,20 +250,20 @@ This is the main lifecycle that handles project deployment. It consists of 23 ph
 - 6.install: Installs the package into the local repository, for use as a dependency in other projects locally.
 - 7.deploy: Copies the final package to the remote repository for sharing with other developers and projects.
 
-#### 2. Clean Lifecycle
+#### 2. Clean Lifecycle :
 This lifecycle is used to clean up artifacts created by the previous build. It consists of three phases:
 - pre-clean: Executes processes needed before the actual project cleaning.
 - clean: Removes files generated during the previous build.
 - post-clean: Executes processes needed after the project cleaning.
 
-#### 3. Site Lifecycle
+#### 3. Site Lifecycle :
 This lifecycle is used to create the project's site documentation. It consists of four phases:
 - pre-site: Executes processes needed before the actual project site generation.
 - site: Generates the project's site documentation.
 - post-site: Executes processes needed after the site generation, preparing for site deployment.
 - site-deploy: Deploys the generated site to a web server.
 
-## Maven Repositories
+## Maven Repositories :
 Maven repositories are a central part of the Maven build system. They are where Maven stores and retrieves project dependencies, plugins, and other artifacts. Understanding how repositories work and how to manage them is crucial for effectively using Maven.
 
 ### Types of Maven Repositories ==>
@@ -352,7 +352,7 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 
 - Explanation: The child module inherits the version and scope of spring-core from the parent POM, thanks to the <dependencyManagement> section.
 
-### Excluding Unwanted Transitive Dependencies
-Sometimes, you might want to exclude a transitive dependency that is brought in by one of your dependencies but is not needed by your project.
+### Excluding Unwanted Transitive Dependencies :
+- Sometimes, you might want to exclude a transitive dependency that is brought in by one of your dependencies but is not needed by your project.
 
 

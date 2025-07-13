@@ -355,4 +355,6 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 ### Excluding Unwanted Transitive Dependencies :
 - Sometimes, you might want to exclude a transitive dependency that is brought in by one of your dependencies but is not needed by your project.
 
+#### Example of Excluding Transitive Dependencies:
+
 

@@ -357,4 +357,16 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 
 #### Example of Excluding Transitive Dependencies:
 
+    <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>2.5.4</version>
+    <exclusions>
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </exclusion>
+    </exclusions>
+    </dependency>
+
 

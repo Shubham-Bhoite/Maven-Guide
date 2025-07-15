@@ -369,4 +369,5 @@ In multi-module projects, you often have a parent POM that defines dependencies 
     </exclusions>
     </dependency>
 
+- Explanation: This configuration excludes the spring-boot-starter-tomcat dependency, which might be useful if you’re using a different server (e.g., Jetty) and don’t want Tomcat libraries included.
 

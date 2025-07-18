@@ -373,5 +373,7 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 
 ### Managing Conflicts with Dependency Mediation
 - When multiple versions of the same dependency are included via transitive dependencies, Maven uses a process called "dependency mediation" to determine which version to use. Maven usually selects the nearest definition (i.e., the version specified in the pom.xml or the version closest to the root of the dependency tree).
+#### Example of Dependency Conflict:
+
 
 

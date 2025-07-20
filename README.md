@@ -112,13 +112,13 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 
 
 
-## Project Object Model (POM)
+## Project Object Model (POM) :
 - The POM (Project Object Model) is the core of a Maven project. Understanding the POM file is essential because it contains all the configuration details for a Maven project.
 
 
 ### Structure of a pom.xml File :
 - The pom.xml file is an XML file that contains information about the project and configuration details used by Maven to build the project.
-- Here’s a basic structure of a pom.xml file:
+- Here’s a basic structure of a pom.xml file==>
         
       <project xmlns="<http://maven.apache.org/POM/4.0.0>"
          xmlns:xsi="<http://www.w3.org/2001/XMLSchema-instance>"
@@ -191,7 +191,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 #### Dependencies:
 - Dependencies are external libraries that your project needs to work. You specify these in the dependencies section of the POM.
 - Maven automatically downloads the specified versions of dependencies and any transitive dependencies they require.
-- Example :
+- Example ==>
 
       <dependencies>
         <dependency>
@@ -286,7 +286,7 @@ Maven supports three types of repositories:
 ### 3.Remote Repository:
 - A remote repository is any repository that is hosted on a web server other than the central repository. Organizations often maintain their own remote repositories to store proprietary artifacts, plugins, or third-party libraries that are not available in the central repository.
 - You can configure Maven to use a remote repository by adding it to your pom.xml or settings.xml file.
-- Example in pom.xml:
+- Example in pom.xml ==>
 
       <repositories>
        <repository>
@@ -355,7 +355,7 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 ### Excluding Unwanted Transitive Dependencies :
 - Sometimes, you might want to exclude a transitive dependency that is brought in by one of your dependencies but is not needed by your project.
 
-#### Example of Excluding Transitive Dependencies:
+#### Example of Excluding Transitive Dependencies==>
 
     <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -371,8 +371,9 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 
 - Explanation: This configuration excludes the spring-boot-starter-tomcat dependency, which might be useful if you’re using a different server (e.g., Jetty) and don’t want Tomcat libraries included.
 
-### Managing Conflicts with Dependency Mediation
+### Managing Conflicts with Dependency Mediation :
 - When multiple versions of the same dependency are included via transitive dependencies, Maven uses a process called "dependency mediation" to determine which version to use. Maven usually selects the nearest definition (i.e., the version specified in the pom.xml or the version closest to the root of the dependency tree).
+  
 #### Example of Dependency Conflict:
 - If A depends on B:1.0 and C depends on B:2.0, and both A and C are included in your project, Maven will choose one version of B.
 - You can control which version is selected by explicitly declaring the desired version in your pom.xml.

@@ -377,6 +377,12 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 #### Example of Dependency Conflict:
 - If A depends on B:1.0 and C depends on B:2.0, and both A and C are included in your project, Maven will choose one version of B.
 - You can control which version is selected by explicitly declaring the desired version in your pom.xml.
+  
+      <dependency>
+         <groupId>com.example</groupId>
+         <artifactId>B</artifactId>
+         <version>2.0</version>
+      </dependency>
 
 
 

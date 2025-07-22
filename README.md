@@ -159,7 +159,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
       </project>
 
 
-### Key Elements in POM
+### Key Elements in POM ==>
 1.modelVersion:
 - This specifies the version of the POM model being used. Currently, 4.0.0 is the default and most widely used version.
 
@@ -187,7 +187,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - The build section is used to specify how the project should be built. This includes specifying plugins, custom build directories, resources, etc.
 
 
-### Dependencies and Dependency Management
+### Dependencies and Dependency Management ==>
 #### Dependencies:
 - Dependencies are external libraries that your project needs to work. You specify these in the dependencies section of the POM.
 - Maven automatically downloads the specified versions of dependencies and any transitive dependencies they require.
@@ -204,7 +204,7 @@ Whether you're a student, fresher, or developer new to Maven, this guide will he
 - Maven resolves transitive dependencies automatically. For example, if your project depends on A, and A depends on B, Maven will include B as a dependency in your project.
 
 
-### Maven Dependency Scopes and Profiles
+### Maven Dependency Scopes and Profiles ==>
 #### 1. Dependency Scopes
 - Maven provides several scopes for dependencies, each determining at what phase of the build process the dependency is available and whether it is included in the final artifact (e.g., a JAR or WAR file). Understanding these scopes is crucial for managing project dependencies effectively.
 - Here’s a detailed explanation of each scope, with examples:

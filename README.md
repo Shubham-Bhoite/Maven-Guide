@@ -383,6 +383,7 @@ In multi-module projects, you often have a parent POM that defines dependencies 
          <artifactId>B</artifactId>
          <version>2.0</version>
       </dependency>
+- Explanation: By explicitly declaring the version of B, you override the transitive versions and ensure that B:2.0 is used.
 
 
 

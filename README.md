@@ -386,4 +386,5 @@ In multi-module projects, you often have a parent POM that defines dependencies 
 - Explanation: By explicitly declaring the version of B, you override the transitive versions and ensure that B:2.0 is used.
 
 
+### Best Practices for Dependency Management
 
